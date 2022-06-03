@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Function main point
- * Returs 0 if it is successful
+ * * main-Entry point
+ * * Return: 0 if successful
  */
 int main(void)
 {
