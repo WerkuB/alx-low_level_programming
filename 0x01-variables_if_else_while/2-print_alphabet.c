@@ -12,5 +12,6 @@ int main(void)
 		putchar(sm_let);
 		sm_let++;
 	}
+	putchar('\n');
 	return (0);
 }
