@@ -16,6 +16,7 @@ int main(void)
 	while (ca_let <= 'Z')
 	{
 		putchar(ca_let);
+		ca_let++;
 	}
 	putchar('\n');
 	return (0);
