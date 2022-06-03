@@ -13,6 +13,10 @@ int main(void)
 		if (nums < 9)
 		{
 			putchar(',');
+			if (nums < 9)
+			{
+				putchar(' ');
+			}
 		}
 		nums++;
 	}
