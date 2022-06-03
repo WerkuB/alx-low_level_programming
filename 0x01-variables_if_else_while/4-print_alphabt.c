@@ -9,7 +9,7 @@ int main(void)
 	/* code started here*/
 	while (sm_let <= 'z')
 	{
-		if (sm_let != 'e' || sm_let != 'q')
+		if (sm_let == 'e' || sm_let == 'q')
 		sm_let++;
 		putchar(sm_let);
 		sm_let++;
