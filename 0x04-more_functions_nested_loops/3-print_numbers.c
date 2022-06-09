@@ -6,7 +6,7 @@
 	void print_numbers(void)
 	{
 		int i;
-		/* loop which print 0-9*/
+
 		for (i = 0; i <= 9; i++)
 		{
 			_putchar(i + '0');
