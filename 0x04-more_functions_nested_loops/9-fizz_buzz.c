@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	int i;
+	int i, j = 100;
 
-	for (i = 1; i <= 100; i++)
+	for (i = 1; i <= j; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -19,7 +19,11 @@ int main(void)
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			if (i < j)
+				printf("Buzz ");
+
+			else
+				printf("Buzz");
 		}
 		else
 		{
