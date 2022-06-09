@@ -3,15 +3,37 @@
  * more_numbers- print numbers 0-14 10 times
  * Return:nothing,return vidd
  */
-	void more_numbers(void)
-	{
-		int i, j;
+void more_numbers(void)
+{
+	int i;
+	int first_number;
+	int second_number;
+	int result;
 
-		for (j = 1; j <= 10; j++)
+	i = 0;
+	result = 0;
+	while (i < 10)
+	{
+		while (result <= 14)
 		{
-		for (i = 0; i <= 14; i++)
-		{
-			_putchar(i + '0');
+			if (result < 10)
+			{
+				second_number = result;
+			}
+
+			else
+			{
+				first_number = result / 10;
+				second_number = result % 10;
+				_putchar (first_number + '0');
+			}
+
+			_putchar (second_number + '0');
+
+			result++;
 		}
-	_putchar('\n');
+		i++;
+		result = 0;
+		_putchar ('\n');
 	}
+}
